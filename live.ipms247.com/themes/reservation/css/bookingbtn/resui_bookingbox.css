@@ -1,0 +1,184 @@
+.bb_resbox
+{
+  background:#e0e0e0;
+  font-size: 14px !important;
+  border: none;
+  padding:0px 0px 10px 0px;
+  text-align: center;
+} 
+.bb_resbox h2
+{
+  padding: 10px 5px;
+  margin:0px;
+}
+.bb_resbox p
+{
+padding: 10px 6px 0px 6px;  
+margin: 0px; 
+position: relative;
+float: none;
+display: inline-block;
+width: auto;
+vertical-align: bottom;
+display: inline-block;
+line-height: normal;
+}
+.bb_resbox  label
+{
+  text-align: left;
+  line-height: normal;
+  clear: both;
+  margin-bottom: 7px;
+  width: 100%;
+  display: block;
+}
+.bb_resbox  input[type="text"]
+{
+  float: left;
+  clear: both;
+  padding: 7px 0px 7px 7px;
+}
+.bb_resbox .hasDatepicker
+{
+  width: 112px;
+}
+.bb_resbox select
+{
+  
+  min-width: 46px;
+  background: #fff;
+  padding: 7px  0px  7px  7px;
+}
+
+input#promotioncode
+{
+  width: 112px;
+}
+.bb_resbox button.ui-datepicker-trigger
+{
+  position: absolute;
+  top:54.5%;
+  right: 9%;
+  z-index: 1;
+}
+#bb_resBtn
+{
+  margin-left:0px !important;
+}
+button.ui-datepicker-trigger {
+    background: rgba(0, 0, 0, 0) url("../../images/bookingbtn/calendar.png") no-repeat scroll 0 0;
+    border: medium none;
+    float: left;
+    height: 21px;
+    width: 21px;
+}
+input#bb_resBtn
+{
+  width: 100%;
+  
+  padding: 7px 13px;
+  border-radius:0px;
+  -moz-border-radius:0px;
+  -webkit-border-radius:0px;  
+  transition:background 0.5s ease;
+  -moz-transition:background 0.5s ease; /* Firefox 4 */
+  -webkit-transition:background 0.5s ease; /* Safari and Chrome */
+  -o-transition:background 0.5s ease; /* Opera */
+  text-transform: uppercase;
+  font-size:15px;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #43B8BE;
+  background: #43B8BE;
+}
+
+#bb_resBtn:hover {
+  background:#2ea1a7;
+  border:1px solid #2ea1a7;
+}
+.bb_vrbox p
+{
+  min-width:45%;
+}
+.bb_vrbox p input
+{
+  min-width:97.5%;
+}
+.bb_vrbox p select
+{
+  min-width:100%;
+}
+@media only screen and (max-width: 776px) {
+.bb_resbox  p
+{
+  width: 45%;
+}
+.bb_resbox select
+{
+  min-width: 100%;
+}
+.bb_resbox  input[type="text"]
+{
+  min-width: 97.5%;
+}
+}
+@media only screen and (max-width: 415px) {
+.bb_resbox  p
+{
+  width: 40%;
+  text-align: left;
+}
+.bb_resbox  input[type="text"]
+{
+  width: 97.5%;
+}
+.bb_resbox select
+{
+  width: 100%;
+  margin:0px;
+}
+.bb_resbox button.ui-datepicker-trigger
+{
+  position: absolute;
+  top:54.5%;
+  right: 9%;
+  z-index: 1;
+}
+input#bb_resBtn
+{
+  min-width: 100%;
+}
+}
+@media only screen and (max-width: 313px) {
+  .bb_resbox  p
+{
+  width: 93%;
+  text-align: left;
+}
+.bb_resbox  input[type="text"]
+{
+  min-width: 97.5%;
+}
+.bb_resbox select
+{
+  min-width: 100%;
+  margin:0px;
+}
+.bb_resbox button.ui-datepicker-trigger
+{
+  position: absolute;
+  top:53%;
+  right: 6%;
+  z-index: 1;
+}
+input#bb_resBtn
+{
+  min-width: 100%;
+}
+}  
+
+
+#bb_resBookingBox
+{
+	font-size:11px;
+}
